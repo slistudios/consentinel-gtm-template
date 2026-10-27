@@ -9,7 +9,7 @@
 homepage: "https://consentinel.co"
 documentation: "https://github.com/slistudios/consentinel-gtm-template#readme"
 versions:
-  - sha: 4571363bce42d179a95147621b272001c558f837
+  - sha: 9e76a5cb82eb35a3e75f8fba7a5e00dc7ca1fc82
     changeNotes: |-
       Initial release.
 
