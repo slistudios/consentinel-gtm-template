@@ -2,6 +2,18 @@
 # the commit SHA in the PUBLIC repository (slistudios/consentinel-gtm-template),
 # so versions are added here AFTER the operator's commit there, then re-synced
 # with scripts/publish-gtm-template.mjs. See the design spec § 8.
+#
+# Each `sha` names the commit in that public repo whose `template.tpl` IS that
+# version. The entry therefore always points at an EARLIER commit than the one
+# adding it — that ordering is inherent to the gallery's model, not a mistake.
 homepage: "https://consentinel.co"
 documentation: "https://github.com/slistudios/consentinel-gtm-template#readme"
-versions: []
+versions:
+  - sha: 4571363bce42d179a95147621b272001c558f837
+    changeNotes: |-
+      Initial release.
+
+      Bridges Consentinel's consent state into Google Consent Mode. Sets the
+      all-denied default, applies a returning visitor's stored choice, and
+      follows in-page consent changes. Requires the Consentinel snippet to be
+      installed as the first synchronous script; this tag never loads it.
