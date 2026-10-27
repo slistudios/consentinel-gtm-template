@@ -1,0 +1,7 @@
+# Community Template Gallery metadata. The gallery identifies each version by
+# the commit SHA in the PUBLIC repository (slistudios/consentinel-gtm-template),
+# so versions are added here AFTER the operator's commit there, then re-synced
+# with scripts/publish-gtm-template.mjs. See the design spec § 8.
+homepage: "https://consentinel.co"
+documentation: "https://github.com/slistudios/consentinel-gtm-template#readme"
+versions: []
